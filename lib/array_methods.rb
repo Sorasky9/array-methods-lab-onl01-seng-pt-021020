@@ -1,8 +1,8 @@
+require 'pry'
 def using_include(array, element)
+binding.pry
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
 array.include?("wow")
-
-array.include?("wow" == "Tardis")
 
 
 end
