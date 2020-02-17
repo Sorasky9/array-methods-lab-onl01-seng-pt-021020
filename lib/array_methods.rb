@@ -1,7 +1,7 @@
 def using_include(array, element)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
-array.include?("element1")
-array.include?("element2")
+array.include?("element1") == array.include? ("element2")
+
 
 end
 
